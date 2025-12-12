@@ -7,11 +7,11 @@
 - click inspect
 - in another browser tab visit `localhost:4321/` five times
 - take a memory snapshot and under the `Filter by class` search filter by `Dep`
-- you should see 5 `Dep` objets allocated in memory
+- [ ] you should see 5 `Dep` objets allocated in memory
 - make 10 more visits to `localhost:4321`
 - take a new memory snapshot
 - search for `Dep` again
-- you now should see 15 `Dep` objects allocated in memory
+- [ ] you now should see 15 `Dep` objects allocated in memory
 - lets test our work around
 - visit `localhost:4321/leaking-work-around` 20 times
-- `Dep` objects should not have increased
+- [ ] `Dep` objects should not have increased
