@@ -12,3 +12,6 @@
 - take a new memory snapshot
 - search for `Dep` again
 - you now should see 15 `Dep` objects allocated in memory
+- lets test our work around
+- visit `localhost:4321/leaking-work-around` 20 times
+- `Dep` objects should not have increased
