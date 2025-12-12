@@ -1,4 +1,7 @@
-# Steps to reproduce
+# Reproduction of @nanostores/vue memory leak
+there is a memory leak when usign nanostores with Astro + Vue + NodeJS adapter.
+
+## Steps to reproduce
 
 - run: `npm run build`
 - run: `npm run preview`
